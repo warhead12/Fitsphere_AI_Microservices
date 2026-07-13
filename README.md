@@ -2,6 +2,11 @@
 
 A **microservices-based fitness tracking application** built with **Spring Boot**, **Spring Cloud**, and a suite of supporting frameworks. This project demonstrates a real-world distributed system architecture with **4 independent services** that communicate via **REST APIs**, **message queues (RabbitMQ)**, and **service discovery (Eureka)**.
 
+<img width="1260" height="566" alt="image" src="https://github.com/user-attachments/assets/75bcac50-6b9f-4c34-87b4-dc70eac833c0" />
+
+
+
+
 ## Project Structure
 
 ```
