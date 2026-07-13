@@ -1,8 +1,42 @@
-# Fitness Microservice
+# Fitsphere_AI Microservice
 
 A **microservices-based fitness tracking application** built with **Spring Boot**, **Spring Cloud**, and a suite of supporting frameworks. This project demonstrates a real-world distributed system architecture with **4 independent services** that communicate via **REST APIs**, **message queues (RabbitMQ)**, and **service discovery (Eureka)**.
+## Project Walkthrough : Behind the curtains
 
+### User creation postman endpoint
+<img width="1261" height="662" alt="image" src="https://github.com/user-attachments/assets/8f65cdf7-41da-42c2-9458-0b023c82aee2" />
+### User Created in Postgress Db
+<img width="1279" height="684" alt="image" src="https://github.com/user-attachments/assets/0d812501-e8fe-407f-a381-34d4ffb83212" />
+### Activity creation postman endpoint
+<img width="2560" height="1440" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/e6c45cc9-692c-4415-87d7-b3fa42b43752" />
+### Activities created in MongoDb
+<img width="1021" height="641" alt="image" src="https://github.com/user-attachments/assets/562dbad5-dc30-4975-bc8c-d92a5073c902" />
+### Accessing Activity service using gateway authenticated by keycloak
+<img width="915" height="641" alt="image" src="https://github.com/user-attachments/assets/9d01c2bf-8868-47c3-92a2-187b2d34956d" />
+### Connected Actvity Service with AI Service using RabbitMQ
+<img width="1237" height="589" alt="image" src="https://github.com/user-attachments/assets/a79334ca-8194-4a9e-8c61-e7e2dc41245c" />
+<img width="1277" height="407" alt="image" src="https://github.com/user-attachments/assets/c94aa57e-3657-47c7-a6da-d744a7ad62c3" />
+### Recommendation stored in MongoDb Database
+<img width="1038" height="643" alt="image" src="https://github.com/user-attachments/assets/1346ca0d-3158-4a49-8bc2-27ecfe358b2f" />
+### Service discovery using Eureka
 <img width="1260" height="566" alt="image" src="https://github.com/user-attachments/assets/75bcac50-6b9f-4c34-87b4-dc70eac833c0" />
+
+## Project Walkthrough : User View
+### Landing page
+<img width="1238" height="550" alt="image" src="https://github.com/user-attachments/assets/3fef1dd5-6d7e-4e02-8a27-1a8b2b0f169c" />
+### Keycloak SignIn Page
+<img width="1229" height="557" alt="image" src="https://github.com/user-attachments/assets/e7a03337-65f2-40fc-a2ca-499ae6b4eb99" />
+### Users listing their workout details
+<img width="1250" height="541" alt="image" src="https://github.com/user-attachments/assets/b8b3d5b8-ebd7-49e7-b53c-cab7157c287f" />
+### AI Generated response
+<img width="1270" height="554" alt="image" src="https://github.com/user-attachments/assets/2ba34cfe-17e8-42ad-9f52-06ebd8a893a1" />
+### AI Generated response continued..
+<img width="1235" height="555" alt="image" src="https://github.com/user-attachments/assets/0350ce51-d869-49be-a5e4-e7dcd643f62b" />
+
+
+
+
+
 
 
 
