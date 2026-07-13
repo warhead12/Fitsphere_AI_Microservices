@@ -54,7 +54,6 @@ A **microservices-based fitness tracking application** built with **Spring Boot*
 ### AI Generated response
 
 <img width="1270" height="554" alt="image" src="https://github.com/user-attachments/assets/2ba34cfe-17e8-42ad-9f52-06ebd8a893a1" />
-### AI Generated response continued..
 <img width="1235" height="555" alt="image" src="https://github.com/user-attachments/assets/0350ce51-d869-49be-a5e4-e7dcd643f62b" />
 
 
